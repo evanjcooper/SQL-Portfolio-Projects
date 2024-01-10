@@ -8,7 +8,6 @@ Cleaning Data in SQL Queries
 Select *
 From PortfolioProject.dbo.NashvilleHousing
 
---------------------------------------------------------------------------------------------------------------------------
 
 -- Standardize Date Format
 
@@ -140,8 +139,6 @@ From PortfolioProject.dbo.NashvilleHousing
 
 
 
---------------------------------------------------------------------------------------------------------------------------
-
 
 -- Change Y and N to Yes and No in "Sold as Vacant" field
 
@@ -171,9 +168,6 @@ SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yes'
 
 
 
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Remove Duplicates
 
@@ -205,7 +199,6 @@ From PortfolioProject.dbo.NashvilleHousing
 
 
 
----------------------------------------------------------------------------------------------------------
 
 -- Delete Unused Columns
 
@@ -226,14 +219,6 @@ DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
 
 
-
-
-
-
-
-
------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------
 
 --- Importing Data using OPENROWSET and BULK INSERT	
 
