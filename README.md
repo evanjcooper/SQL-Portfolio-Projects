@@ -5,5 +5,5 @@
 
 <h3 align="center">Take your time, preview my work, I look forward to hearing from you!</h3>
 
-<img align="center" alt="coding" width="450" src="https://sqldbaschool.com/wp-content/uploads/2021/11/Learn-sql-dba-school-the-skill-of-tomorrow.gif">
+<img align="right" alt="coding" width="450" src="https://sqldbaschool.com/wp-content/uploads/2021/11/Learn-sql-dba-school-the-skill-of-tomorrow.gif">
 
